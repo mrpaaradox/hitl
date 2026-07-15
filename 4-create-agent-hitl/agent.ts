@@ -61,7 +61,7 @@ export const agent = createAgent({
         purchaseStock: true,
         getStockPrice: false,
       },
-      descriptionPrefix: "XTool execution pending approval",
+      descriptionPrefix: "Tool execution pending approval",
     }),
   ],
   checkpointer: new MemorySaver(),
